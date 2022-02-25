@@ -1,0 +1,33 @@
+*, html {
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: rgb(84, 84, 230);
+}
+
+
+section{
+    margin: 0;
+    width: 100%;
+    height: 20vh;
+    border: 1px solid navy;
+}
+section div{
+    margin: 0 10vw;
+    background-color: lightgrey;
+    font-size: 20px;
+}
+
+
+footer{
+    position: relative;
+    width: 100%;
+    padding: 3vh 0;
+    background-color: rgb(84, 84, 230);
+    text-align: center;
+    bottom: -20px;
+    color: aliceblue;
+    font-style: italic;
+}

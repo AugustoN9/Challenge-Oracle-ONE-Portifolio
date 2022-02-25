@@ -1,0 +1,159 @@
+*,html {
+    margin: 0;
+    padding: 0;
+    font-family: Raleway;
+    background-color: #d3d3d3;
+}
+
+.cabecalhoPrincipal {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    padding: 5% 0 0 0;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+
+.cabecalhoPrincipal-logo {
+    padding-left: 10%;
+    font-family: Epilogue;
+    font-size: 28px;
+}
+
+.cabecalhoPrincipal-logo a{
+    text-decoration: none;
+}
+
+.cabecalhoPrincipal-nav {
+    padding-right: 10%;
+}
+
+.cabecalhoPrincipal-nav a {
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+#conteudo {
+    margin: 10% 10%;
+}
+
+#conteudo h3 {
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 10%;
+    padding-bottom: 3vh;
+}
+
+#conteudo p {
+    font-size: 17px;
+}
+
+.titulo {
+    padding: 0;
+    margin-bottom: -10%;
+}
+
+.titulo h1 {
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 18px;
+}
+
+.titulo h4 {
+    padding: 22px 22px 10px 0;
+    font-size: 18px;
+}
+
+.titulo ul li {
+    display: inline;
+}
+
+.titulo ul li a {
+    text-decoration: none;
+    padding-right: 18px;
+}
+
+.sobremim {
+    margin-top: 0;
+}
+
+.item-skills {
+    width: 10vw;
+    height: 16vh;
+    border: 1px solid #FFFFFF;
+    border-radius: 12px;
+    padding: 10px;
+    text-align: center;
+}
+
+.item-formacao {
+    width: 20vw;
+    height: 30vh;
+    border: 1px solid #FFFFFF;
+    padding: 20px;
+    text-align: center;
+}
+
+.item-formacao,.fundo {
+    width: 20vw;
+    height: 30vh;
+    background-color: #ffd014;
+    padding: 20px;
+    text-align: center;
+}
+
+.item-formacao,.fundo2 {
+    width: 20vw;
+    height: 30vh;
+    background-color: #11282e;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+.item-skills, .item-skills img, .item-skills p {
+    background-color: #FFFFFF;
+}
+
+.item-formacao, .item-formacao img, .item-formacao p {
+    background-color: #FFFFFF;
+}
+
+.skills-lista, .formacao-lista {
+    display: flex;
+}
+
+.skills-lista li, .formacao-lista li{
+    margin-right: 2%;
+}
+
+
+footer p {
+    text-align: center;
+    background-color: #11282e;
+    color: #FFFFFF;
+    padding: 3% 0;
+}
+
+@font-face {
+    font-family: accid;
+    src: url(../font/accid___.ttf)
+  }
+
+@font-face {
+    font-family: dmsans;
+    src: url(../font/DMSans-Regular.ttf)
+  }
+
+@font-face {
+    font-family: Raleway;
+    src: url(../font/Raleway-Regular.ttf)
+  }
+
+@font-face {
+    font-family: Epilogue;
+    src: url(../font/Epilogue-ExtraLightItalic.ttf)
+  }
+
+  
