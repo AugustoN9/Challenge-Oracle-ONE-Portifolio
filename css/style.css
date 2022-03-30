@@ -78,12 +78,23 @@ html {
     padding-right: 18px;
 }
 
+.tituloFormacao {
+    padding: 5px 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 .sobremim {
     margin-top: 0;
 }
 
 .sobremim img {
     width: 15em;
+}
+
+.challenge1 {
+    width: 750px;
+    height: 400px;
+    background-image: url("../image/decodificadorJavascript2.png");
 }
 
 .item-skills {
