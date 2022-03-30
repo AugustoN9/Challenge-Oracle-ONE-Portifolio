@@ -92,7 +92,8 @@ html {
 }
 
 .projetos {
-    padding-bottom: 20px;
+    padding-bottom: 30px;
+    display: flex;
 }
 
 .challenge1 {
@@ -100,6 +101,19 @@ html {
     height: 400px;
     background-image: url("../image/decodificadorJavascript2.png");
     background-repeat: no-repeat;
+    border-radius: 13px;
+}
+
+.challenge2 {
+    width: 750px;
+    height: 400px;
+    background-image: url("../image/jogodaForcaJavascript.2png.png");
+    background-repeat: no-repeat;
+    border-radius: 13px;
+}
+
+.acessoDemo {
+    width: 30vw;
 }
 
 .item-skills {
