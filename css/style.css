@@ -54,6 +54,10 @@ html {
     margin-bottom: -10%;
 }
 
+.titulo-foto {
+    box-shadow: 5px 5px 10px;
+}
+
 .titulo h1 {
     font-size: 40px;
     font-weight: bold;
