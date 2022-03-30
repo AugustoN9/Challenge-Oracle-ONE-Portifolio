@@ -92,24 +92,37 @@ html {
 }
 
 .projetos {
-    padding-bottom: 30px;
+    padding: 20px 10px;
     display: flex;
 }
 
 .challenge1 {
     width: 750px;
     height: 400px;
+    margin-right: 30px;
     background-image: url("../image/decodificadorJavascript2.png");
     background-repeat: no-repeat;
-    border-radius: 13px;
+    border-radius: 19px;
+    box-shadow: 7px 7px 20px #11282e;
 }
 
 .challenge2 {
     width: 750px;
     height: 400px;
-    background-image: url("../image/jogodaForcaJavascript.2png.png");
+    background-image: url("../image/jokempo.png");
     background-repeat: no-repeat;
-    border-radius: 13px;
+    border-radius: 19px;
+    box-shadow: 7px 7px 20px #11282e;
+}
+
+.challenge3 {
+    width: 750px;
+    height: 400px;
+    margin-right: 30px;
+    background-image: url("../image/jogodaForcaJavascript2.png");
+    background-repeat: no-repeat;
+    border-radius: 19px;
+    box-shadow: 7px 7px 20px #11282e;
 }
 
 .acessoDemo {
