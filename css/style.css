@@ -95,6 +95,8 @@ html {
     width: 750px;
     height: 400px;
     background-image: url("../image/decodificadorJavascript2.png");
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
 }
 
 .item-skills {
