@@ -1,4 +1,5 @@
-*,html {
+*,
+html {
     margin: 0;
     padding: 0;
     font-family: Raleway;
@@ -20,7 +21,7 @@
     font-size: 28px;
 }
 
-.cabecalhoPrincipal-logo a{
+.cabecalhoPrincipal-logo a {
     text-decoration: none;
 }
 
@@ -40,7 +41,7 @@
 #conteudo h3 {
     font-size: 24px;
     font-weight: bold;
-    padding-top: 10%;
+    padding-top: 15%;
     padding-bottom: 3vh;
 }
 
@@ -77,6 +78,10 @@
     margin-top: 0;
 }
 
+.sobremim img {
+    width: 15em;
+}
+
 .item-skills {
     width: 10vw;
     height: 16vh;
@@ -94,7 +99,8 @@
     text-align: center;
 }
 
-.item-formacao,.fundo {
+.item-formacao,
+.fundo {
     width: 20vw;
     height: 30vh;
     background-color: #ffd014;
@@ -102,7 +108,8 @@
     text-align: center;
 }
 
-.item-formacao,.fundo2 {
+.item-formacao,
+.fundo2 {
     width: 20vw;
     height: 30vh;
     background-color: #11282e;
@@ -110,24 +117,27 @@
     text-align: center;
 }
 
-
-
-.item-skills, .item-skills img, .item-skills p {
+.item-skills,
+.item-skills img,
+.item-skills p {
     background-color: #FFFFFF;
 }
 
-.item-formacao, .item-formacao img, .item-formacao p {
+.item-formacao,
+.item-formacao img,
+.item-formacao p {
     background-color: #FFFFFF;
 }
 
-.skills-lista, .formacao-lista {
+.skills-lista,
+.formacao-lista {
     display: flex;
 }
 
-.skills-lista li, .formacao-lista li{
+.skills-lista li,
+.formacao-lista li {
     margin-right: 2%;
 }
-
 
 footer p {
     text-align: center;
@@ -139,21 +149,19 @@ footer p {
 @font-face {
     font-family: accid;
     src: url(../font/accid___.ttf)
-  }
+}
 
 @font-face {
     font-family: dmsans;
     src: url(../font/DMSans-Regular.ttf)
-  }
+}
 
 @font-face {
     font-family: Raleway;
     src: url(../font/Raleway-Regular.ttf)
-  }
+}
 
 @font-face {
     font-family: Epilogue;
     src: url(../font/Epilogue-ExtraLightItalic.ttf)
-  }
-
-  
+}
