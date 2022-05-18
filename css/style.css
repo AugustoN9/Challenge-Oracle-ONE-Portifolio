@@ -215,6 +215,33 @@ footer p {
     padding: 3% 0;
 }
 
+.formContato {
+    width: 656px;
+    height: 56px;
+    background-color: #FFFFFF;
+    margin-bottom: 32px;
+    border: transparent;
+}
+
+.formMensagem {
+    width: 656px;
+    height: 224px;
+    background-color: #FFFFFF;
+    border: transparent;
+    margin-bottom: 32px;
+    padding-top: 0;
+}
+
+.formMensagem:hover {
+    border-bottom: 2px solid blue;
+    height: 222px;
+}
+
+.formContato:hover {
+    border-bottom: 2px solid blue;
+    height: 54px;
+}
+
 @font-face {
     font-family: accid;
     src: url(../font/accid___.ttf)
